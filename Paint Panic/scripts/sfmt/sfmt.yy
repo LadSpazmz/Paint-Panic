@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sfmt",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sfmt",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Third-Party/GameFrame/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

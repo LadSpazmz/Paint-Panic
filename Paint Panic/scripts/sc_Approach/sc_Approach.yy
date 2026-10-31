@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_Approach",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_Approach",
+  "parent":{
+    "name":"Unsorted",
+    "path":"folders/Scripts/Unsorted.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

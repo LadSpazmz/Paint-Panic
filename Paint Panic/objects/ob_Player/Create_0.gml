@@ -1,0 +1,66 @@
+#region XSPEED
+
+x_Speed = 0;
+
+#endregion XSPEED
+
+#region YSPEED
+
+y_Speed = 0;
+max_Yspeed = 20;
+
+#endregion YSPEED
+
+#region MOVEMENT
+
+SpdAcc = .62;
+SpdDec = .75;
+WalkCap = 5.5;
+currentSpd = WalkCap;
+jumpStrength = -12;
+grav = .5;
+ground = false;
+jumpBuffer = 0;
+jumpStop = false;
+coyoteTime = 0;
+
+#endregion MOVEMENT
+
+#region IMAGE
+
+image_speed = .25;
+
+depth = -11;
+
+DirXscale = image_xscale;
+DirYscale = image_yscale;
+
+#endregion IMAGE
+
+#region INPUT
+
+input_disable = false;
+player_get_input();
+
+#endregion INPUT
+
+#region PALETTE
+
+pal_swap_init_system(shd_pal_swapper);
+PaletteSelect = 0;
+PaletteTransition = 0;
+
+#endregion PALETTE
+
+#region COMBAT
+
+Attacking = false;
+
+#endregion COMBAT
+
+#region STATES
+
+state = "normal";
+PaintingFinishTimer = 0;
+
+#endregion STATES

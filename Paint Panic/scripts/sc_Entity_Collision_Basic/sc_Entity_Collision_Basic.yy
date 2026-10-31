@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_Entity_Collision_Basic",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_Entity_Collision_Basic",
+  "parent":{
+    "name":"Entities",
+    "path":"folders/Scripts/Entities.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
