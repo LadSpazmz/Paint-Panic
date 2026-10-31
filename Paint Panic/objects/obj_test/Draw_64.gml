@@ -1,1 +1,0 @@
-if (gameframe_alpha >= 1/255) gameframe_draw();
