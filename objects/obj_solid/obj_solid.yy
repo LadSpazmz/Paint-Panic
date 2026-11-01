@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_Slope",
+  "%Name":"obj_solid",
   "eventList":[],
   "managed":true,
-  "name":"ob_Slope",
+  "name":"obj_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Solids",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_Slope",
-    "path":"sprites/sp_Slope/sp_Slope.yy",
+    "name":"sp_Solid",
+    "path":"sprites/sp_Solid/sp_Solid.yy",
   },
   "spriteMaskId":null,
   "visible":true,

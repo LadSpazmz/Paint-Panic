@@ -1,17 +1,5 @@
+scr_collision_init()
 
-
-#region XSPEED
-
-x_Speed = 0;
-
-#endregion XSPEED
-
-#region YSPEED
-
-y_Speed = 0;
-max_Yspeed = 20;
-
-#endregion YSPEED
 
 #region MOVEMENT
 
@@ -21,7 +9,7 @@ WalkCap = 5.5;
 currentSpd = WalkCap;
 jumpStrength = -12;
 grav = .5;
-ground = false;
+grounded = false;
 jumpBuffer = 0;
 jumpStop = false;
 coyoteTime = 0;

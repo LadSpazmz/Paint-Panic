@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_One_Way_Solid_U",
+  "%Name":"obj_slopePlatform",
   "eventList":[],
   "managed":true,
-  "name":"ob_One_Way_Solid_U",
+  "name":"obj_slopePlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"One-Ways",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_One_Way_U",
-    "path":"sprites/sp_One_Way_U/sp_One_Way_U.yy",
+    "name":"sp_Slope_oneway",
+    "path":"sprites/sp_Slope_oneway/sp_Slope_oneway.yy",
   },
   "spriteMaskId":null,
   "visible":true,

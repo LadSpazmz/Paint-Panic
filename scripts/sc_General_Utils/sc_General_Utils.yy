@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_AnimEnd",
+  "%Name":"sc_General_Utils",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_AnimEnd",
+  "name":"sc_General_Utils",
   "parent":{
     "name":"Unsorted",
     "path":"folders/Scripts/Unsorted.yy",

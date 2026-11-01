@@ -1,21 +1,21 @@
-if (ob_Player.press_up && Cleaning == false && Clean == false && ob_Player.state == states.normal)
+if (!Cleaning && !Clean && ob_Player.press_up && ob_Player.state == states.normal)
 {
-Cleaning = true;
-MeterLineUpX = -115;
-MeterLineUpMarkerX = -115;
-MeterLineUpMarkerPlace = 3;
+	Cleaning = true;
+	meter.line_x = -115;
+	meter.marker_x = -115;
+	meter.place = 3;
 
-with(ob_Camera)
-{
-max_Zoom = other.cam_Zoom;
-zoom_Timer = 1000;
-target = other;
-}
+	with(ob_Camera)
+	{
+		max_Zoom = other.cam_Zoom;
+		zoom_Timer = 1000;
+		target = other;
+	}
 
-with(ob_Player)
-{
-state = states.blank;
-x_Speed = 0;
-y_Speed = 0;
-}
+	with(ob_Player)
+	{
+		state = states.blank;
+		hsp = 0;
+		vsp = 0;
+	}
 }

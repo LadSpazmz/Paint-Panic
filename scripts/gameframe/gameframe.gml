@@ -1054,7 +1054,7 @@ function gameframe_draw() {
 	var __titlebarHeight = gameframe_caption_get_height();
 	var __buttons_x = gameframe_button_get_combined_offset(_gw);
 	if (!gameframe_isMaximized_hx) gameframe_caption_draw_border(0, 0, _gw, _gh);
-	gameframe_caption_draw_background(__borderWidth, __borderWidth, _gw - __borderWidth * 2, __titlebarHeight, __buttons_x);
+	gameframe_caption_draw_backgrounded(__borderWidth, __borderWidth, _gw - __borderWidth * 2, __titlebarHeight, __buttons_x);
 	gameframe_caption_draw_text(__borderWidth, __borderWidth, __buttons_x - __borderWidth, __titlebarHeight);
 	gameframe_button_draw(__buttons_x, __borderWidth, __titlebarHeight);
 	__display_gui_restore();
@@ -1255,8 +1255,8 @@ globalvar gameframe_caption_height_maximized; /// @is {number}
 gameframe_caption_height_maximized = -0.66667;
 globalvar gameframe_caption_draw_border; /// @is {function<x:int; y:int; width:int; height:int; void>}
 gameframe_caption_draw_border = gameframe_caption_draw_border_default;
-globalvar gameframe_caption_draw_background; /// @is {function<x:int; y:int; width:int; height:int; buttonsX:int; void>}
-gameframe_caption_draw_background = gameframe_caption_draw_caption_rect_default;
+globalvar gameframe_caption_draw_backgrounded; /// @is {function<x:int; y:int; width:int; height:int; buttonsX:int; void>}
+gameframe_caption_draw_backgrounded = gameframe_caption_draw_caption_rect_default;
 globalvar gameframe_caption_draw_text; /// @is {function<x:number; y:number; width:int; height:int; void>}
 gameframe_caption_draw_text = gameframe_caption_draw_caption_text_default;
 // gameframe_cover:

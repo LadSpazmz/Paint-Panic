@@ -131,10 +131,10 @@ if (isOpen) {
 	surface_reset_target();
 	
 	surface_set_target(shellSurface);
-		// Draw shell background
+		// Draw shell backgrounded
 		draw_clear_alpha(c_black, 0.0);
-		if (consoleBackground != noone) {
-			draw_sprite_stretched(consoleBackground, 0, shellOriginX, shellOriginY, width, height);
+		if (consoleBackgrounded != noone) {
+			draw_sprite_stretched(consoleBackgrounded, 0, shellOriginX, shellOriginY, width, height);
 		} else {
 			draw_set_alpha(consoleAlpha);
 			draw_set_color(consoleColor);
@@ -193,11 +193,11 @@ if (isOpen) {
 				autocompleteOriginX = x1;
 				autocompleteOriginY = y1;
 				
-				// Draw autocomplete background
-				if (suggestionsBackground != noone) {
-					draw_sprite_stretched(suggestionsBackground, 0, x1, y1, x2 - x1, y2 - y1);
+				// Draw autocomplete backgrounded
+				if (suggestionsBackgrounded != noone) {
+					draw_sprite_stretched(suggestionsBackgrounded, 0, x1, y1, x2 - x1, y2 - y1);
 				} else {
-					draw_set_color(autocompleteBackgroundColor);
+					draw_set_color(autocompleteBackgroundedColor);
 					draw_rectangle(x1, y1, x2, y2, false);
 					draw_set_color(fontColorSecondary);
 					draw_rectangle(x1, y1, x2, y2, true);

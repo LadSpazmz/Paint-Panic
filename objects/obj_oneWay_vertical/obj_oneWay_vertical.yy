@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_One_Way_Solid_L",
+  "%Name":"obj_oneWay_vertical",
   "eventList":[],
   "managed":true,
-  "name":"ob_One_Way_Solid_L",
+  "name":"obj_oneWay_vertical",
   "overriddenProperties":[],
   "parent":{
     "name":"One-Ways",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sp_One_Way_L",
-    "path":"sprites/sp_One_Way_L/sp_One_Way_L.yy",
+    "name":"sp_One_Way_D",
+    "path":"sprites/sp_One_Way_D/sp_One_Way_D.yy",
   },
   "spriteMaskId":null,
   "visible":true,

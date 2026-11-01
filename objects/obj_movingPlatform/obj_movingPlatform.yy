@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"ob_One_Way_Solid_D",
+  "%Name":"obj_movingPlatform",
   "eventList":[],
   "managed":true,
-  "name":"ob_One_Way_Solid_D",
+  "name":"obj_movingPlatform",
   "overriddenProperties":[],
   "parent":{
     "name":"One-Ways",
