@@ -35,7 +35,7 @@ target = ob_Player;
 
 with(ob_Player)
 {
-state = "normal";
+state = states.normal;
 sprite_index = sp_Player_Idle;
 image_index = 0;
 }
@@ -73,7 +73,7 @@ Cleaning = false;
 
 with(ob_Player)
 {
-state = "normal";
+state = states.normal;
 sprite_index = sp_Player_Idle;
 image_index = 0;
 }

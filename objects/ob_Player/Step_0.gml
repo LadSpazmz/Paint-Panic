@@ -1,21 +1,9 @@
-if (global.hitStun == false)
+if (!global.hitStun)
 {
-sc_Entity_Collision_Basic();
+	sc_Entity_Collision_Basic();
 
-switch (state) 
-{
-case "normal":
-sc_Player_Normal();
-break;
-
-case "jump":
-sc_Player_Jump();
-break;
-
-case "crouch":
-sc_Player_Crouch();
-break;
-}
+	if state != undefined
+		player_states[state]()
 }
 
 // Coyote time
@@ -28,10 +16,10 @@ coyoteTime--;
 
 // Painting end timer
 if (PaintingFinishTimer >= 0)
-PaintingFinishTimer--;
+	PaintingFinishTimer--;
 else if (sprite_index = sp_Player_PaintingFinish)
 {
-state = "normal";
-sprite_index = sp_Player_Idle;
-image_index = 0;
+	state = states.normal;
+	sprite_index = sp_Player_Idle;
+	image_index = 0;
 }

@@ -69,6 +69,6 @@ image_index = 0;
 sprite_index = sp_Player_Land;
 if (_move != 0)
 DirXscale = _move;
-state = "normal";
+state = states.normal;
 }
 }

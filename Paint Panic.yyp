@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Third-Party/GameFrame/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level Design","folderPath":"folders/Objects/Level Design.yy","name":"Level Design","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Entities","folderPath":"folders/Objects/Level Design/Entities.yy","name":"Entities","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -44,6 +43,7 @@
     {"$GMFolder":"","%Name":"GameFrame","folderPath":"folders/Sprites/Misc/GameFrame.yy","name":"GameFrame","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Third-Party","folderPath":"folders/Third-Party.yy","name":"Third-Party","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GameFrame","folderPath":"folders/Third-Party/GameFrame.yy","name":"GameFrame","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Third-Party/GameFrame/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Third-Party/GameFrame/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Third-Party/GameFrame/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Third-Party/GameFrame/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -98,6 +98,7 @@
     {"id":{"name":"sc_AnimEnd","path":"scripts/sc_AnimEnd/sc_AnimEnd.yy",},},
     {"id":{"name":"sc_Approach","path":"scripts/sc_Approach/sc_Approach.yy",},},
     {"id":{"name":"sc_Entity_Collision_Basic","path":"scripts/sc_Entity_Collision_Basic/sc_Entity_Collision_Basic.yy",},},
+    {"id":{"name":"sc_Player_Blank","path":"scripts/sc_Player_Blank/sc_Player_Blank.yy",},},
     {"id":{"name":"sc_Player_Crouch","path":"scripts/sc_Player_Crouch/sc_Player_Crouch.yy",},},
     {"id":{"name":"sc_Player_Jump","path":"scripts/sc_Player_Jump/sc_Player_Jump.yy",},},
     {"id":{"name":"sc_Player_Normal","path":"scripts/sc_Player_Normal/sc_Player_Normal.yy",},},

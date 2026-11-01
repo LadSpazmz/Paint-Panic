@@ -1,4 +1,4 @@
-if (ob_Player.press_up && Cleaning == false && Clean == false && ob_Player.state == "normal")
+if (ob_Player.press_up && Cleaning == false && Clean == false && ob_Player.state == states.normal)
 {
 Cleaning = true;
 MeterLineUpX = -115;
@@ -14,7 +14,7 @@ target = other;
 
 with(ob_Player)
 {
-state = "blank";
+state = states.blank;
 x_Speed = 0;
 y_Speed = 0;
 }

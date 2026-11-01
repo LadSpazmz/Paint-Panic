@@ -68,7 +68,7 @@ if (!coyoteTime)
 {
 image_index = 0;
 sprite_index = sp_Player_Jump_Loop;
-state = "jump";
+state = states.jump;
 }
 
 if (jumpBuffer && coyoteTime)
@@ -78,7 +78,7 @@ sprite_index = sp_Player_Jump;
 y_Speed = jumpStrength;
 jumpBuffer = false;
 jumpStop = false;
-state = "jump";
+state = states.jump;
 // Create partacle
 // Create sound
 }
@@ -87,6 +87,6 @@ if (press_down && ground)
 {
 image_index = 0;
 sprite_index = sp_Player_CrouchStart;
-state = "crouch";
+state = states.crouch;
 }
 }

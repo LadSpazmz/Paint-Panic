@@ -1,3 +1,5 @@
+
+
 #region XSPEED
 
 x_Speed = 0;
@@ -60,7 +62,21 @@ Attacking = false;
 
 #region STATES
 
-state = "normal";
+enum states
+{
+	normal,
+	jump,
+	crouch,
+	blank
+}
+
+state = states.normal;
+player_states = []
+player_states[states.normal] = sc_Player_Normal
+player_states[states.jump] = sc_Player_Jump
+player_states[states.crouch] = sc_Player_Crouch
+player_states[states.blank] = sc_Player_Blank
+
 PaintingFinishTimer = 0;
 
 #endregion STATES

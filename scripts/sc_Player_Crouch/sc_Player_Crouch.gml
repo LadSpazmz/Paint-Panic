@@ -61,7 +61,7 @@ if (!coyoteTime)
 {
 image_index = 0;
 sprite_index = sp_Player_Fall;
-state = "jump";
+state = states.jump;
 }
 
 if (!place_meeting(x, y - 15, ob_Par_Solid) && !place_meeting(x, y - 10, ob_Par_Solid) && !place_meeting(x, y - 5, ob_Par_Solid) && !place_meeting(x, y - 2, ob_Par_Solid))
@@ -73,7 +73,7 @@ sprite_index = sp_Player_Jump;
 y_Speed = jumpStrength;
 jumpBuffer = false;
 jumpStop = false;
-state = "jump";
+state = states.jump;
 // Create partacle
 // Create sound
 }
@@ -85,7 +85,7 @@ if (_move_Speed != 0)
 sprite_index = sp_Player_Walk;
 else
 sprite_index = sp_Player_Idle;
-state = "normal";
+state = states.normal;
 }
 }
 }
