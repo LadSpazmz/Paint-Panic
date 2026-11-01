@@ -14,7 +14,7 @@ if (!Cleaning && !Clean && ob_Player.press_up && ob_Player.state == states.norma
 
 	with(ob_Player)
 	{
-		state = states.blank;
+		state = states.actor;
 		hsp = 0;
 		vsp = 0;
 	}

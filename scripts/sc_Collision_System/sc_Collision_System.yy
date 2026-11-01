@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_Entity_Collision_Basic",
+  "%Name":"sc_Collision_System",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_Entity_Collision_Basic",
+  "name":"sc_Collision_System",
   "parent":{
     "name":"Entities",
     "path":"folders/Scripts/Entities.yy",

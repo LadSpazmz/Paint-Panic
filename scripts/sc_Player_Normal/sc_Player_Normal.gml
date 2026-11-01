@@ -64,7 +64,9 @@ function sc_Player_Normal()
 
 	if (press_down && ground)
 	{
+		mask_index = sp_PlayerMask_crouch 
 		ResetAnim(sp_Player_CrouchStart)
 		state = states.crouch
 	}
+
 }

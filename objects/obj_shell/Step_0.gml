@@ -1,6 +1,5 @@
 // feather disable all
 // feather ignore all
-
 if (saveHistory) {
 	if (!loadedSavedHistory) {
 		self._load_history();
@@ -13,12 +12,10 @@ if (saveHistory) {
 }
 
 if (!isOpen) {
-	keyboard_string = ""
 	if (self._key_combo_pressed(openModifiers, openKey)) {
 		self.open();
 	}
 } else {
-	
 	var prevConsoleString = consoleString;
 	
 	if (metaDeleted && keyboard_check_released(vk_backspace)) {

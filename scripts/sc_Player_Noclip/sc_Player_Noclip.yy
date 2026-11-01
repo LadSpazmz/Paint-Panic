@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_Player_Noclip",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_Player_Noclip",
+  "parent":{
+    "name":"Player",
+    "path":"folders/Scripts/Entities/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

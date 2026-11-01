@@ -120,7 +120,7 @@
   "name":"font_console",
   "parent":{
     "name":"Fonts",
-    "path":"folders/Third-Party/Harmony/Fonts.yy",
+    "path":"folders/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

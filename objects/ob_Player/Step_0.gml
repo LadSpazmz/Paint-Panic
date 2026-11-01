@@ -1,10 +1,12 @@
 if (!global.hitStun)
 {
-	sc_Entity_Physics()
-	sc_Entity_Collision()
-
 	if (state != undefined) {
 		player_states[state]()
+	}
+	if state != states.noclip
+	{
+		sc_Entity_Physics()
+		sc_Entity_Collision()
 	}
 }
 
