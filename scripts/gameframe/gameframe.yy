@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"gameframe",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gameframe",
+  "parent":{
+    "name":"Extensions",
+    "path":"folders/Third-Party/GameFrame/Extensions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
